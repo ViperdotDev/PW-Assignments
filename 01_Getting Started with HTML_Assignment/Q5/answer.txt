@@ -1,0 +1,4 @@
+Q:What is the DOCTYPE Declaration in HTML?
+Ans: The DOCTYPE Declaration in HTML (Document Type Declaration) is a crucial element at the beginning of an HTML document that specifies the document type and version of HTML being used. 
+It informs web browsers and validators about the rules and standards to follow when rendering or parsing the HTML content. 
+The DOCTYPE Declaration helps ensure that the web page is displayed and processed correctly by conforming to specific HTML specifications.
