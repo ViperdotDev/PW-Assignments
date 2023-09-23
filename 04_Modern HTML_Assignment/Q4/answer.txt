@@ -1,0 +1,5 @@
+Here are 3 ways to improve accessibility in HTML:
+
+i)Use semantic HTML elements. Semantic HTML elements are elements that have a specific meaning, such as <h1> for headings, <table> for tables, and <img> for images. Using semantic HTML elements helps screen readers and other assistive technologies to understand the structure and content of your website.
+ii)Provide alternative text for images. Alternative text, also known as alt text, is a brief description of an image that is read by screen readers. Alt text is important for people who are blind or have low vision, because it allows them to understand the content of images.
+iii)Use descriptive link text. Link text is the text that is displayed for a link. Descriptive link text tells users what they can expect to find when they click on a link. Avoid using link text such as "Click here" or "Learn more." Instead, use link text that describes the destination of the link.

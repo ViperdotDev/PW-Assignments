@@ -1,0 +1,13 @@
+Accessibility in web development is the practice of designing and developing websites so that they can be used by everyone, regardless of their abilities. This includes people with disabilities, such as blindness, deafness, and mobility impairments.
+
+
+There are many reasons why it is essential to create accessible websites. Here are a few:
+i)It is the right thing to do. Everyone deserves to have access to the information and services that the web has to offer.
+ii)It is good for business. Accessible websites can reach a wider audience and improve customer satisfaction.
+iii)It improves the user experience for everyone. Many of the features that make websites accessible to people with disabilities.
+
+
+Accessible websites benefit a wide range of user groups, including:
+i)People with visual impairments: Accessible websites use text alternatives for images and other visual content, so that people who are blind or have low vision can still access the information on the website.
+ii)People with hearing impairments: Accessible websites provide captions and transcripts for audio and video content, so that people who are deaf or hard of hearing can still access the information on the website
+

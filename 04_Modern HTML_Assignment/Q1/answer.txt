@@ -1,0 +1,15 @@
+Ans:-
+HTML5 is the fifth and current major revision of the HTML standard. It introduces a number of new features and elements, as well as changes to existing ones. Some of the most notable features of HTML5 include:
+
+1.Multimedia support: HTML5 includes native support for audio and video, without the need for third-party plugins such as Adobe Flash.
+2.Canvas: The canvas element allows developers to draw graphics and animations directly on the web page, without the need for additional software.
+3.Geolocation API: The geolocation API allows developers to access the user's current location, with the user's permission.
+4.Local storage: HTML5 introduces local storage, which allows developers to store data on the user's computer for later use.
+5.Web workers: Web workers are background threads that can be used to perform long-running tasks without blocking the main thread of the web page.
+6.Drag and drop API: The drag and drop API allows users to drag and drop elements between different web pages.
+7.Form enhancements: HTML5 includes a number of enhancements to the HTML form element, such as new input types and placeholder text.
+8.WebSockets: WebSockets allow for real-time, two-way communication between a web page and a server.
+9.Microdata: Microdata is a way to embed structured data into web pages, which can be used by search engines and other applications.
+10.Cross-document messaging: HTML5 allows web pages to communicate with each other, even if they are from different domains.
+
+In addition to these new features, HTML5 also includes a number of changes to existing HTML elements and attributes. These changes are designed to make HTML more semantic and easier to use.
