@@ -389,6 +389,13 @@ nav {
   border: none;
   border-radius: 10.139px;
   background: var(--01BB0A, #01bb0a);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.search button h1 {
   color: #fff;
   text-align: center;
   font-family: Inter;
