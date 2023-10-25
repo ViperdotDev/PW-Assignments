@@ -16,7 +16,7 @@ a {
   color: white;
   margin: 15px;
   font-size: 20px;
-  border: 3px solid green;
+  border: 7px solid hotpink;
 }
 a:hover {
   color: blueviolet;
@@ -35,5 +35,5 @@ a:nth-child(4) {
   border-style: groove;
 }
 a:nth-child(5) {
-  border-style:solid;
+  border-style: solid;
 }
