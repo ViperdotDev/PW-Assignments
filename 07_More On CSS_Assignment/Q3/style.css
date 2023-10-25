@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+nav {
+  background-color: #6495ed;
+  padding: 20px;
+}
+a {
+  color: white;
+  margin: 15px;
+  font-size: 20px;
+  border: 3px solid green;
+}
+a:hover {
+  color: blueviolet;
+}
+
+a:nth-child(1) {
+  border-style: dashed;
+}
+a:nth-child(2) {
+  border-style: dotted;
+}
+a:nth-child(3) {
+  border-style: double;
+}
+a:nth-child(4) {
+  border-style: groove;
+}
+a:nth-child(5) {
+  border-style:solid;
+}

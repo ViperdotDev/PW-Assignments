@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.card {
+  margin: 0 auto;
+  margin-top: 10px;
+  width: 250px;
+  background-color: #f8c42e;
+  border-radius: 20px;
+  padding: 7px;
+}
+
+img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.content {
+  padding: 20px 10px;
+}
+
+.content p:nth-child(1) {
+  font-weight: bold;
+}
