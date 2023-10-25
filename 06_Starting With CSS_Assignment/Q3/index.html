@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form>
+      <h1>HTML Form</h1>
+
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label>Gender:</label>
+      <input type="radio" id="male" name="gender" value="male" />
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="female">Female</label>
+
+      <label for="newsletter">Subscribe to Newsletter:</label>
+      <input type="checkbox" id="newsletter" name="newsletter" checked />
+
+      <label for="country">Country:</label>
+      <select id="country" name="country">
+        <option value="usa">India</option>
+        <option value="canada">Canada</option>
+        <option value="uk">UK</option>
+      </select>
+
+      <!-- Apply opacity to this section -->
+      <div class="opacity-example">
+        <h2>Section with Opacity</h2>
+        <p>This section has reduced opacity.</p>
+      </div>
+
+      <input type="submit" value="Submit" class="custom-bg" />
+    </form>
+  </body>
+</html>

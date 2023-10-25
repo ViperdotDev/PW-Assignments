@@ -1,0 +1,21 @@
+/* Apply styles to text input fields */
+input[type="text"] {
+  background-color: #588157;
+}
+
+
+/* Apply styles to the dropdown menu */
+select {
+  background-color: #fb8500;
+}
+
+/* Apply opacity to a form section */
+.opacity-example {
+  opacity: 0.7;
+}
+
+/* Custom color palette */
+.custom-bg {
+  background-color: #ff9900;
+  color: white;
+}

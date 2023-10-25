@@ -1,0 +1,20 @@
+/* Block */
+.paragraph {
+  margin: 10px 0;
+  color:red
+}
+
+/* Element */
+.paragraph__title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Modifier */
+.paragraph--important {
+  color: blue;
+}
+
+.paragraph--warning {
+  color: green;
+}
