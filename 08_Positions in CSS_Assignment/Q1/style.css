@@ -3,28 +3,29 @@ div {
   width: 50px;
   background-color: #7fffd4;
   text-align: center;
+  border: 1px solid lightgreen;
 }
-.boxa {
+.box-a {
   position: relative;
   left: 200px;
   top: 200px;
 }
-.boxb {
+.box-b {
   position: absolute;
   left: -30px;
   top: -30px;
 }
-.boxc {
+.box-c {
   position: absolute;
   right: -30px;
   top: -30px;
 }
-.boxd {
+.box-d {
   position: absolute;
   left: -30px;
   bottom: -30px;
 }
-.boxe {
+.box-e {
   position: absolute;
   right: -30px;
   bottom: -30px;
