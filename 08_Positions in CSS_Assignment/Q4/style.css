@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+nav {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(56, 56, 56);
+  color: #fff;
+  padding: 10px 50px;
+  position: fixed;
+  width: 100vw;
+}
+
+.nav-right {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.nav-right a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+
+.nav-right button {
+  background-color: hotpink;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 10px 15px;
+}
+
+.content {
+}
