@@ -1,0 +1,23 @@
+.box {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+#box1 {
+  background-color: red;
+  left: 20px;
+  top: 20px;
+  z-index: 1;
+}
+#box2 {
+  background-color: blue;
+  left: 50px;
+  top: 50px;
+  z-index: 2;
+}
+#box3 {
+  background-color: green;
+  left: 80px;
+  top: 80px;
+  z-index: 1;
+}
