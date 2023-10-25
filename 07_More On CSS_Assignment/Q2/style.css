@@ -12,7 +12,7 @@ body {
 .card {
   margin: 0 auto;
   margin-top: 10px;
-  width: 250px;
+  width: 300px;
   background-color: #f8c42e;
   border-radius: 20px;
   padding: 7px;
@@ -27,6 +27,6 @@ img {
   padding: 20px 10px;
 }
 
-.content p:nth-child(1) {
+.content span {
   font-weight: bold;
 }
