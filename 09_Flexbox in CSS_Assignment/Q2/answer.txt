@@ -1,0 +1,44 @@
+1.justify-content:
+justify-content attribute defines the horizontal alignment of flex items within the flex container along the main axis.
+
+Attributes include:
+flex-start: Aligns items at the start of the main axis.
+flex-end: Aligns items at the end of the main axis.
+center: Centers items along the main axis.
+space-between: Distributes items evenly with space between them, but not before the first or after the last item.
+space-around: Distributes items evenly with space before the first and after the last item, as well as between items.
+
+
+2.align-items:
+align-items attribute controls the vertical alignment of flex items within the flex container along the cross axis.
+
+Attributes include:
+flex-start: Aligns items at the start of the cross axis.
+flex-end: Aligns items at the end of the cross axis.
+center: Centers items along the cross axis.
+baseline: Aligns items so that their baselines are aligned.
+stretch (default): Stretches items to fill the container's cross-axis.
+
+
+3.gap:
+gap attribute is used to define the space between flex items (both horizontally and vertically) within a flex container.
+It's similar to the margin property but is specifically for creating space between flex items.
+
+
+4.flex-direction:
+flex-direction attribute sets the direction in which flex items are placed within the flex container.
+
+Attributes include:
+row (default): Items are laid out in a horizontal row.
+row-reverse: Items are laid out in a horizontal row but in the reverse order.
+column: Items are laid out in a vertical column.
+column-reverse: Items are laid out in a vertical column but in the reverse order.
+
+
+5.flex-wrap:
+flex-wrap attribute controls whether flex items are allowed to wrap onto multiple lines within the flex container when there isn't enough space on a single line.
+
+Attributes include:
+nowrap (default): Items are not allowed to wrap and will overflow the container if there isn't enough space.
+wrap: Items are allowed to wrap onto multiple lines when needed.
+wrap-reverse: Items wrap in the reverse order when necessary.
