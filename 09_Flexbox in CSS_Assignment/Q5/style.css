@@ -3,23 +3,32 @@
   padding: 0;
   box-sizing: border-box;
 }
-html,
-body {
+body,
+html {
   height: 100%;
   width: 100%;
-  font-family: "Inter", sans-serif;
+  font-family: Inter, sans-serif;
   background: #fff;
+  overflow-x: hidden;
 }
-
-.wrapper {
+.left-nav,
+.right-nav,
+.top-content,
+.wrapper,
+nav {
   display: flex;
+}
+#journey,
+nav {
+  margin-top: 50.69px;
+}
+.wrapper {
   width: 100vw;
   height: 100vh;
 }
 .left-section {
   flex: 1;
 }
-
 .right-section {
   flex: 1;
   display: flex;
@@ -30,18 +39,21 @@ body {
   height: 1036px;
   flex-shrink: 0;
 }
-
 nav {
-  display: flex;
   justify-content: space-between;
-  margin-top: 50.69px;
 }
 .left-nav {
-  display: flex;
   gap: 20px;
   margin-left: 101.39px;
 }
-.left-nav img:nth-child(1) {
+#bookings,
+#hero,
+#journey,
+#journey-time,
+.search {
+  margin-left: 101px;
+}
+.left-nav img:first-child {
   width: 66.917px;
   height: auto;
 }
@@ -49,20 +61,28 @@ nav {
   width: 81.111px;
   height: auto;
 }
-
 .right-nav {
-  display: flex;
   flex-direction: column;
   gap: 20px;
 }
-
 .top-content {
-  display: flex;
   gap: 25.35px;
   justify-content: end;
 }
+.bottom-content button:first-child,
+.bottom-content button:nth-child(2) {
+  display: flex;
+  padding: 10.139px 15.208px;
+  justify-content: center;
+  gap: 10.139px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-family: Inter;
+  font-size: 15.208px;
+}
 .top-content p {
-  color: #333333;
+  color: #333;
   text-align: center;
   font-family: Inter;
   font-size: 15.208px;
@@ -74,48 +94,30 @@ nav {
   display: flex;
   gap: 15.2px;
 }
-
-.bottom-content button:nth-child(1) {
-  display: flex;
-  padding: 10.139px 15.208px;
-  justify-content: center;
+.bottom-content button:first-child {
   align-items: center;
-  gap: 10.139px;
   border: none;
   border-radius: 5.069px;
-  color: white;
   background: #fb792b;
   color: #fff;
-  font-family: Inter;
-  font-size: 15.208px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
 }
-
 .bottom-content button:nth-child(2) {
-  display: flex;
-  padding: 10.139px 15.208px;
-  justify-content: center;
   align-items: center;
-  gap: 10.139px;
   border-radius: 5.069px;
   border: 1.014px solid rgba(51, 51, 51, 0.2);
   background: #fff;
   color: #333;
-  font-family: Inter;
-  font-size: 15.208px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
+}
+#bookings button:first-child,
+.bottom-content button:nth-child(3) {
+  justify-content: center;
+  border-radius: 5.069px;
+  padding: 10.139px 15.208px;
+  gap: 10.139px;
+  display: flex;
 }
 .bottom-content button:nth-child(3) {
-  display: flex;
-  padding: 10.139px 15.208px;
-  justify-content: center;
   align-items: center;
-  gap: 10.139px;
-  border-radius: 5.069px;
   border: 1.014px solid rgba(51, 51, 51, 0.2);
   background: var(--FFFFFF, #fff);
   color: var(--333333, #333);
@@ -126,15 +128,21 @@ nav {
   line-height: normal;
   text-transform: capitalize;
 }
-
+.hero-content p:first-child,
+.hero-content p:nth-child(2),
+.hero-content p:nth-child(3) {
+  font-size: 32.444px;
+  font-weight: 500;
+  font-family: Inter;
+  font-style: normal;
+  line-height: normal;
+}
 #hero {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  margin-left: 101px;
   margin-top: 91px;
 }
-
 .hero-header {
   color: var(--333333, #333);
   font-family: Inter;
@@ -147,52 +155,34 @@ nav {
   display: flex;
   gap: 15px;
 }
-.hero-content p:nth-child(1) {
+.hero-content p:first-child {
   color: var(--01BB0A, #01bb0a);
-  font-family: Inter;
-  font-size: 32.444px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
 }
 .hero-content p:nth-child(2) {
   color: var(--FB792B, #fb792b);
-  font-family: Inter;
-  font-size: 32.444px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
 }
 .hero-content p:nth-child(3) {
   color: var(--213D77, #213d77);
-  font-family: Inter;
-  font-size: 32.444px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
 }
-
 #bookings {
   display: flex;
   gap: 20.28px;
   margin-top: 81.65px;
-  margin-left: 101px;
 }
-#bookings button {
+#bookings button,
+.journey-from,
+.journey-time-class,
+.journey-time-date,
+.journey-time-seat,
+.journey-to {
   display: flex;
 }
-#bookings button:nth-child(1) {
-  display: flex;
-  padding: 10.139px 15.208px;
-  justify-content: center;
+#bookings button:first-child {
   align-items: center;
-  gap: 10.139px;
-  border-radius: 5.069px;
   border: none;
   background: var(--213D77, #213d77);
 }
-
-#bookings button:nth-child(1) p {
+#bookings button:first-child p {
   color: var(--FFFFFF, #fff);
   font-family: Inter;
   font-size: 18.25px;
@@ -200,8 +190,8 @@ nav {
   font-weight: 700;
   line-height: normal;
 }
-
-#bookings button:nth-child(2) {
+#bookings button:nth-child(2),
+#bookings button:nth-child(3) {
   display: flex;
   padding: 10.139px 15.208px;
   justify-content: center;
@@ -219,17 +209,6 @@ nav {
   font-weight: 700;
   line-height: normal;
 }
-#bookings button:nth-child(3) {
-  display: flex;
-  padding: 10.139px 15.208px;
-  justify-content: center;
-  align-items: center;
-  gap: 10.139px;
-  border-radius: 5.069px;
-  border: 1.014px solid rgba(51, 51, 51, 0.5);
-  background: var(--FFFFFF, #fff);
-}
-
 #bookings button:nth-child(3) p {
   color: var(--333333, #333);
   font-family: Inter;
@@ -239,18 +218,14 @@ nav {
   line-height: normal;
   text-transform: capitalize;
 }
-
 #journey {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 50.69px;
   border-radius: 10.139px;
   border: 1.014px solid rgba(51, 51, 51, 0.1);
   padding: 20px;
-  margin-left: 101px;
 }
-
 .journey-left,
 .journey-right {
   display: flex;
@@ -258,44 +233,21 @@ nav {
   gap: 10.14px;
 }
 .journey-from-wrapper,
+.journey-time-wrapper,
 .journey-to-wrapper {
   display: flex;
   flex-direction: column;
   gap: 4px;
 }
-.journey-from,
-.journey-to {
-  display: flex;
-}
+.journey-class-content p,
+.journey-date-content p,
 .journey-from p,
-.journey-to p {
-  color: var(--333333, #333);
-  font-family: Inter;
-  font-size: 15.208px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  text-transform: capitalize;
-  opacity: 0.8;
-}
-.journey-from-content,
-.journey-to-content {
-  display: flex;
-  flex-direction: column;
-  gap: 4.49px;
-}
-.journey-from-content h1,
-.journey-to-content h1 {
-  color: var(--333333, #333);
-  font-family: Inter;
-  font-size: 25.347px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  text-transform: capitalize;
-}
-
 .journey-from-content p,
+.journey-seat-content p,
+.journey-time-class p,
+.journey-time-date p,
+.journey-time-seat p,
+.journey-to p,
 .journey-to-content p {
   color: var(--333333, #333);
   font-family: Inter;
@@ -306,58 +258,20 @@ nav {
   text-transform: capitalize;
   opacity: 0.8;
 }
-#journey-time {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 20.28px;
-  border-radius: 10.139px;
-  border: 1.014px solid rgba(51, 51, 51, 0.1);
-  padding: 20px;
-  margin-left: 101px;
-}
-
-.journey-time-left,
-.journey-time-middle,
-.journey-time-right {
-  display: flex;
-  align-items: flex-start;
-  gap: 10.14px;
-}
-.journey-time-wrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-.journey-time-date,
-.journey-time-class,
-.journey-time-seat {
-  display: flex;
-}
-
-.journey-time-date p,
-.journey-time-class p,
-.journey-time-seat p {
-  color: var(--333333, #333);
-  font-family: Inter;
-  font-size: 15.208px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  text-transform: capitalize;
-  opacity: 0.8;
-}
-.journey-date-content,
 .journey-class-content,
-.journey-seat-content {
+.journey-date-content,
+.journey-from-content,
+.journey-seat-content,
+.journey-to-content {
   display: flex;
   flex-direction: column;
   gap: 4.49px;
 }
-
-.journey-date-content h1,
 .journey-class-content h1,
-.journey-seat-content h1 {
+.journey-date-content h1,
+.journey-from-content h1,
+.journey-seat-content h1,
+.journey-to-content h1 {
   color: var(--333333, #333);
   font-family: Inter;
   font-size: 25.347px;
@@ -366,21 +280,23 @@ nav {
   line-height: normal;
   text-transform: capitalize;
 }
-.journey-date-content p,
-.journey-class-content p,
-.journey-seat-content p {
-  color: var(--333333, #333);
-  font-family: Inter;
-  font-size: 15.208px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  text-transform: capitalize;
-  opacity: 0.8;
+#journey-time {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20.28px;
+  border-radius: 10.139px;
+  border: 1.014px solid rgba(51, 51, 51, 0.1);
+  padding: 20px;
 }
-
+.journey-time-left,
+.journey-time-middle,
+.journey-time-right {
+  display: flex;
+  align-items: flex-start;
+  gap: 10.14px;
+}
 .search {
-  margin-left: 101px;
   margin-top: 56.99px;
 }
 .search button {
@@ -394,7 +310,6 @@ nav {
   align-items: center;
   gap: 10px;
 }
-
 .search button h1 {
   color: #fff;
   text-align: center;
