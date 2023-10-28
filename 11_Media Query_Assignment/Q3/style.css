@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: black;
+  align-items: center;
+  padding: 20px;
+  /* height: 70px; */
+}
+li {
+  list-style-type: none;
+}
+a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    background-color: grey;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
