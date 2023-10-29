@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+button {
+  padding: 20px 30px;
+  border-radius: 6%;
+  border: none;
+  font-size: 25px;
+  margin: 10%;
+  color: white;
+  background-color: royalblue;
+}
+button:hover {
+  box-shadow: 10px 5px 10px gray;
+  cursor: pointer;
+}
