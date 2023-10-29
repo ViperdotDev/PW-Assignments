@@ -1,8 +1,5 @@
 * {
   margin: 0;
-  padding: 0;
-  outline: 0;
-  box-sizing: border-box;
 }
 html,
 body {
@@ -20,5 +17,32 @@ nav > h2:nth-child(1) {
 }
 
 nav > p:nth-child(3) {
+  color: red;
+}
+
+a[href^="#"] {
+  color: red;
+  text-decoration: none;
+}
+
+a[class="active"] {
+  color: blueviolet;
+  text-decoration: underline;
+}
+
+a[target="_self"] {
+  background-color: aquamarine;
+}
+
+p:last-child::after {
+  content: "...";
+}
+
+li::marker {
+  color: rgb(255, 4, 188);
+}
+
+nav > p:nth-child(4)::first-letter {
+  font-size: 30px;
   color: red;
 }
