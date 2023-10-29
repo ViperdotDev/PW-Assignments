@@ -1,0 +1,30 @@
+:root {
+  --primary-color: #00b7ff;
+  --secondary-color: #6c757d;
+}
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+button {
+  border: none;
+  color: white;
+  padding: 10px;
+}
+#primaryBtn {
+  background-color: var(--primary-color);
+}
+#secondaryBtn {
+  background-color: var(--secondary-color);
+}
+
+/* 
+The var() function in CSS is used to define and apply custom CSS variables, allowing developers to set and reuse values across their stylesheets. It offers a way to declare variables in CSS and then reference those variables throughout the stylesheet. */
