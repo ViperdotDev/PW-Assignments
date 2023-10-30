@@ -7,10 +7,15 @@
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">PW Logo</a>
+      <a class="navbar-brand" href="#"
+        ><img
+          src="https://www.pw.live//version14/assets/img/logo.png"
+          alt="pw-logo"
+      /></a>
       <button
         class="navbar-toggler"
         type="button"
@@ -24,11 +29,28 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Courses</a>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle active"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Courses
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Web Development</a></li>
+              <li><a class="dropdown-item" href="#">Data Science</a></li>
+              <li><hr class="dropdown-divider" /></li>
+              <li><a class="dropdown-item" href="#">React Native</a></li>
+            </ul>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Job Portal</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">PW Skills Lab</a>
           </li>
         </ul>
         <button
@@ -66,6 +88,9 @@
                   id="email"
                   placeholder="Enter email"
                 />
+                <p class="--bs-primary">
+                  We'll never share your email with anyone else.
+                </p>
               </div>
               <div class="form-group">
                 <label for="password">Password</label>
