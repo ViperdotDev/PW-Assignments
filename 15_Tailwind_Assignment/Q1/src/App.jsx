@@ -62,7 +62,7 @@ function App() {
           </div>
         </div>
         <div className="right-section w-0 md:w-1/2 lg:w-1/2 xl:w-1/2 2xl:w-1/2   h-screen hidden sm:inline md:inline lg:inline xl:inline 2xl:inline ">
-          <img className="m-auto h-full " src={heroBg} alt="hero-image" />
+          <img className="m-auto h-full mt-16" src={heroBg} alt="hero-image" />
         </div>
       </div>
     </>
