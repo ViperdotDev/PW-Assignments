@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#carouselExample {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 20vh;
+}
