@@ -2,7 +2,7 @@ Version control is a system that records changes to a file or set of files over 
 
 There are two main types of version control systems: centralized and decentralized. 
 1)Centralized systems store all versions of a file in a single location, typically a server.
-2)Decentralized systems store each version of a file on each developer's machine.
+2)Decentralized systems store each version of a file on each developer's machine
 
 Git is a popular decentralized version control system that is used by many software development teams. 
 Git is known for its speed, efficiency, and flexibility.
