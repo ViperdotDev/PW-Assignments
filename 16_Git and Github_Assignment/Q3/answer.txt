@@ -1,0 +1,45 @@
+A .gitignore file is a text file that tells Git which files and folders to ignore. It is typically placed at the root of a repository, but it can also be placed in subdirectories.
+
+The .gitignore file is important for version control because it prevents irrelevant files from being tracked by Git. For example, you may not want to track build artifacts, temporary files, or IDE configuration files. By adding these files to the .gitignore file, you can keep your repository clean and organized.
+
+Here is an example of a .gitignore file:
+/build/
+*.o
+*.obj
+*.exe
+*.dll
+
+# Temporary files
+*.tmp
+*.log
+
+# IDE configuration files
+.idea/
+.vscode/
+
+A .gitignore file is a text file that tells Git which files and folders to ignore. It is typically placed at the root of a repository, but it can also be placed in subdirectories.
+
+The .gitignore file is important for version control because it prevents irrelevant files from being tracked by Git. For example, you may not want to track build artifacts, temporary files, or IDE configuration files. By adding these files to the .gitignore file, you can keep your repository clean and organized.
+
+Here is an example of a .gitignore file:
+
+# Build artifacts
+/build/
+*.o
+*.obj
+*.exe
+*.dll
+
+# Temporary files
+*.tmp
+*.log
+
+# IDE configuration files
+.idea/
+.vscode/
+
+This .gitignore file would tell Git to ignore all files and folders in the /build/ directory, all files with the .o or .obj extension, and all files with the .exe or .dll extension. It would also tell Git to ignore all files and folders in the .idea/ and .vscode/ directories.
+
+When you commit changes to a repository, Git will compare the current state of the repository to the contents of the .gitignore file. Any files or folders that are listed in the .gitignore file will be ignored.
+
+The .gitignore file is an important tool for keeping your repository clean and organized. It can also help to improve the performance of Git by reducing the number of files that it needs to track.
