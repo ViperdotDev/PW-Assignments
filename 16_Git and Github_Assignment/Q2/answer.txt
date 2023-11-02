@@ -1,0 +1,13 @@
+The Git workflow is a process for managing changes to a codebase using the Git version control system. It consists of three main stages:
+
+1)Working directory: The working directory is where you create, modify, and organize your files. It's essentially your local file system. When you start working on a project, Git manages these files by tracking changes made to them. Any modifications made to the files in this directory are tracked by Git but not immediately included in the next commit.
+2)Staging area: The staging area is an intermediate space that allows you to prepare and organize your changes before committing them to the repository. Files are added from the working directory to the staging area using the git add command. This staging area gives you the flexibility to choose which specific changes you want to include in the next commit. You can selectively add certain modified files or portions of changes within files to be included in the next commit.
+3)Repository: The repository in Git is where all the project's history and changes are stored. When you commit changes, Git takes a snapshot of the files that are in the staging area and permanently stores this snapshot in the repository. Each commit in the repository represents a point in the project's history, allowing you to track and manage the changes made over time. The repository contains the complete history of the project, and you can revert to any previous commit if needed.
+
+This is the workflow of the Git :-
+i.Make changes to your code in the working directory.
+ii.Add the changes you want to commit to the staging area using the git add command.
+iii.Stage all of the changes in the working directory using the git add . command.
+iv.Review the changes in the staging area using the git status command.
+v.Commit the changes in the staging area to the repository using the git commit command.
+vi.Push the changes in the repository to the remote repository using the git push command.
