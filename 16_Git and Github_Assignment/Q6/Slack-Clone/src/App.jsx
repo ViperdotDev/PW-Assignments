@@ -1,4 +1,5 @@
 import "./App.css";
+import heroVid from "./assets/hero-right-vid.mp4";
 import googleLogo from "./assets/google-logo.png";
 import slackLogo from "./assets/slack-logo.png";
 function App() {
@@ -52,16 +53,16 @@ function App() {
             </li>
           </ul>
         </nav>
-        <main className="bg-[#541554] flex  items-center text-white font-semibold w-full h-fit py-6">
-          <div className="main__left w-full h-fit flex justify-between">
-            <div className="main__left__header ">
+        <main className="bg-[#541554] flex items-center justify-around text-white font-semibold w-full h-fit py-6 pb-24">
+          <div className="main__left w-fit h-fit ml-32 flex  gap-12">
+            <div className="main__left__header flex flex-col gap-5">
               <p className="text-6xl block">
                 Made for people.
                 <span className="block text-[#ecb22e] ">
                   Built for productivity.
                 </span>
               </p>
-              <div className="main__left__content w-2/4">
+              <div className="main__left__content w-2/4 text-base font-med   tracking-wide">
                 Connect the right people, find anything that you need and
                 automate the rest. That’s work in Slack, your productivity
                 platform.
@@ -70,18 +71,33 @@ function App() {
                 <button className="uppercase px-8 py-4 rounded-sm bg-white text-[#541554]">
                   sign up with email address
                 </button>
-                <button className=" uppercase h-10 rounded-sm bg-[#4285f4] text-white">
+                <button className=" uppercase h-fit pt-2 pb-2 pl-1  rounded-sm bg-[#4285f4] text-white">
                   <img
                     className="w-10 bg-white h-10 inline "
                     src={googleLogo}
                     alt=""
                   />
-                  <p className="inline-block">sign up with google</p>
+                  <p className="inline-block w-48 font-semibold">
+                    sign up with google
+                  </p>
                 </button>
+              </div>
+              <div className="main__left__bottom flex items-center gap-3">
+                <p className="font-semibold tracking-wider text-base">
+                  Slack is free to try for as long as you like
+                </p>
               </div>
             </div>
           </div>
-          <div className="main__right"></div>
+          <div className="main__right w-fit h-fit ">
+            <video
+              className="w-[700px] "
+              src={heroVid}
+              autoPlay
+              loop
+              muted
+            ></video>
+          </div>
         </main>
       </div>
     </>
