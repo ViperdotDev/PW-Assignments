@@ -14,12 +14,13 @@ html,
 body {
   height: 100%;
   width: 100%;
-  background-color: green;
 }
 
 p {
   font-size: 14px;
   letter-spacing: -0.1px;
-  line-height: 0;
 }
 
+.kaatre:hover {
+  background-color: blue;
+}
