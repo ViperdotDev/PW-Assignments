@@ -1,11 +1,18 @@
 import "./App.css";
-import heroVid from "./assets/hero-right-vid.mp4";
+import first from "./assets/videos/first-left.webm";
+import seek from "./assets/logo-seek.png";
+import xero from "./assets/logo-xero.png";
+import reaGroup from "./assets/rea.png";
+import rmit from "./assets/rmit.png";
+import ibm from "./assets/logo-ibm.png";
+import deliveroo from "./assets/deliveroo.png";
+import heroVid from "./assets/videos/hero-right-vid.mp4";
 import googleLogo from "./assets/google-logo.png";
 import slackLogo from "./assets/slack-logo.png";
 function App() {
   return (
     <>
-      <div className="wrapper">
+      <div className="wrapper w-full h-full">
         <nav className="bg-[#541554] flex justify-around items-center text-white font-semibold w-full h-fit py-6">
           <ul className="left flex justify-center items-center gap-6 ">
             <li className="mr-5">
@@ -53,7 +60,7 @@ function App() {
             </li>
           </ul>
         </nav>
-        <main className="bg-[#541554] flex items-center justify-around text-white font-semibold w-full h-fit py-6 pb-24">
+        <main className="bg-[#541554] flex items-center justify-around text-white font-semibold w-full h-fit py-6 pb-16">
           <div className="main__left w-fit h-fit ml-32 flex  gap-12">
             <div className="main__left__header flex flex-col gap-5">
               <p className="text-6xl block">
@@ -91,7 +98,7 @@ function App() {
           </div>
           <div className="main__right w-fit h-fit ">
             <video
-              className="w-[700px] "
+              className="w-[890px] "
               src={heroVid}
               autoPlay
               loop
@@ -99,6 +106,69 @@ function App() {
             ></video>
           </div>
         </main>
+        <section className="bg-[#f4ede4] w-full h-full flex items-center flex-col">
+          <div className="testimonials flex flex-col items-center w-[80vw] gap-8 p-8">
+            <p className="text-md uppercase tracking-wide leading-none font-semibold">
+              trusted by companies all over the world
+            </p>
+            <div className="images-section flex gap-20 items-center">
+              <img className="h-full" src={seek} alt="" />
+              <img className="h-full" src={xero} alt="" />
+              <img className="h-full" src={reaGroup} alt="" />
+              <img className="h-full" src={rmit} alt="" />
+              <img className="h-full" src={ibm} alt="" />
+              <img className="h-full" src={deliveroo} alt="" />
+            </div>
+          </div>
+          <div className="pricing w-[80vw] h-full">
+            <div className="first w-full h-full flex items-center ">
+              <div className="left w-1/2 h-full bg-yellow-600  border rounded-r-full">
+                <div className="overflow-hidden">
+                  <video src={first} autoPlay muted loop></video>
+                </div>
+              </div>
+              <div className="right w-1/2 h-full flex flex-col pl-32 gap-3">
+                <p className="text-5xl w-[470px] font-semibold">
+                  Move faster with your tools in one place
+                </p>
+                <p className="w-[470px] font-medium tracking-wider">
+                  Automate away routine tasks with the power of generative AI
+                  and simplify your workflow with all your favourite apps ready
+                  to go in Slack.
+                </p>
+                <p className="font-medium tracking-wider text-xl text-blue-600 hover:underline hover:transition-all ">
+                  Learn more about the Slack platform
+                </p>
+              </div>
+            </div>
+            <div className="second w-full h-full flex items-center ">
+              <div className="left w-1/2 h-full flex flex-col gap-3">
+                <p className="text-5xl w-[470px] font-semibold">
+                  Choose how you want to work
+                </p>
+                <p className="w-[470px] font-medium tracking-wider">
+                  In Slack, you’ve got all the flexibility to work when, where
+                  and how it’s best for you. You can easily chat, send audio and
+                  video clips, or join a huddle to talk things through live.
+                </p>
+                <p className="font-medium tracking-wider text-xl text-blue-600 hover:underline hover:transition-all ">
+                  Learn more about flexible communication
+                </p>
+              </div>
+              <div className="right w-1/2 h-full bg-yellow-600 border -scale-x-100 rounded-l-full">
+                <div className="overflow-hidden ">
+                  <video
+                    className="-scale-x-100"
+                    src={second}
+                    autoPlay
+                    muted
+                    loop
+                  ></video>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
     </>
   );
