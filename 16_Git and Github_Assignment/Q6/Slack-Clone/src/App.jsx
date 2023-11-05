@@ -1,4 +1,6 @@
 import "./App.css";
+import third from "./assets/videos/third.webm";
+import second from "./assets/videos/second.webm";
 import first from "./assets/videos/first-left.webm";
 import seek from "./assets/logo-seek.png";
 import xero from "./assets/logo-xero.png";
@@ -106,7 +108,7 @@ function App() {
             ></video>
           </div>
         </main>
-        <section className="bg-[#f4ede4] w-full h-full flex items-center flex-col">
+        <section className="bg-[#f4ede4] w-full h-full flex items-center flex-col gap-10">
           <div className="testimonials flex flex-col items-center w-[80vw] gap-8 p-8">
             <p className="text-md uppercase tracking-wide leading-none font-semibold">
               trusted by companies all over the world
@@ -120,9 +122,9 @@ function App() {
               <img className="h-full" src={deliveroo} alt="" />
             </div>
           </div>
-          <div className="pricing w-[80vw] h-full">
+          <div className="pricing w-[80vw] h-full flex flex-col gap-20 mb-12">
             <div className="first w-full h-full flex items-center ">
-              <div className="left w-1/2 h-full bg-yellow-600  border rounded-r-full">
+              <div className="left w-1/2 h-full   border rounded-r-full">
                 <div className="overflow-hidden">
                   <video src={first} autoPlay muted loop></video>
                 </div>
@@ -136,7 +138,7 @@ function App() {
                   and simplify your workflow with all your favourite apps ready
                   to go in Slack.
                 </p>
-                <p className="font-medium tracking-wider text-xl text-blue-600 hover:underline hover:transition-all ">
+                <p className="font-medium tracking-wider text-base text-blue-600 hover:underline hover:transition-all ">
                   Learn more about the Slack platform
                 </p>
               </div>
@@ -151,7 +153,7 @@ function App() {
                   and how it’s best for you. You can easily chat, send audio and
                   video clips, or join a huddle to talk things through live.
                 </p>
-                <p className="font-medium tracking-wider text-xl text-blue-600 hover:underline hover:transition-all ">
+                <p className="font-medium tracking-wider text-base text-blue-600 hover:underline hover:transition-all ">
                   Learn more about flexible communication
                 </p>
               </div>
@@ -165,6 +167,68 @@ function App() {
                     loop
                   ></video>
                 </div>
+              </div>
+            </div>
+            <div className="third w-full h-full flex items-center ">
+              <div className="left w-1/2 h-full   border rounded-r-full">
+                <div className="overflow-hidden">
+                  <video src={third} autoPlay muted loop></video>
+                </div>
+              </div>
+              <div className="right w-1/2 h-full flex flex-col pl-32 gap-3">
+                <p className="text-5xl w-[470px] font-semibold">
+                  Bring your team together
+                </p>
+                <p className="w-[470px] font-medium tracking-wider">
+                  At the heart of Slack are channels: organised spaces for
+                  everyone and everything that you need for work. In channels,
+                  it’s easier to connect across departments, offices, time zones
+                  and even other companies.
+                </p>
+                <p className="font-medium tracking-wider text-base text-blue-600 hover:underline hover:transition-all ">
+                  Learn more about channels
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="companies">
+          <div className="first">
+            <div className="first__top flex flex-col justify-center items-center pt-24 pb-20 gap-7">
+              <p className="text-5xl font-semibold">
+                Teams large and small rely on Slack
+              </p>
+              <p className="font-semibold tracking-wider">
+                Slack securely scales up to support collaboration at the world’s
+                biggest companies.
+              </p>
+              <div className="first__top_btns flex gap-2">
+                <button className="px-8 bg-purple-900 text-white py-5 rounded-md font-semibold tracking-wider">
+                  MEET SLACK FOR ENTERPRISE
+                </button>
+                <button className="px-8 bg-transparent border  border-purple-900 text-purple-900 py-5 rounded-md font-semibold tracking-wider">
+                  TALK TO SALES
+                </button>
+              </div>
+            </div>
+            <div className="first__bottom flex justify-evenly gap-8">
+              <div>
+                <p className="text-6xl text-purple-900 font-bold">85%</p>
+                <p className="w-40 text-xs font-semibold tracking-wide">
+                  of users say that Slack has improved communication*
+                </p>
+              </div>
+              <div>
+                <p className="text-6xl  text-purple-900 font-bold">85%</p>
+                <p className="w-40 text-xs font-semibold tracking-wide">
+                  of users say that Slack has improved communication*
+                </p>
+              </div>
+              <div>
+                <p className="text-6xl  text-purple-900 font-bold">85%</p>
+                <p className="w-40 text-xs font-semibold tracking-wide">
+                  of users say that Slack has improved communication*
+                </p>
               </div>
             </div>
           </div>
