@@ -255,8 +255,8 @@ function App() {
             </div>
           </div>
         </section>
-        <footer className="w-full h-fit overflow-hidden">
-          <div className="footer__top h-80 w-full bg-[#4a154b] text-white flex flex-col justify-center items-center gap-8">
+        <footer className="w-full h-fit overflow-hidden mb-2">
+          <div className="footer__top h-96 w-full mb-24 bg-[#4a154b] text-white flex flex-col justify-center items-center gap-8">
             <p className="text-5xl font-semibold">
               See all that you can accomplish with Slack
             </p>
@@ -269,8 +269,202 @@ function App() {
               </button>
             </div>
           </div>
-          <div className="footer__bottom">
-            <img width={60} height={60} src={slackLogo} alt="" />
+          <div className="footer__bottom flex justify-around">
+            <img className="w-14 h-14" src={slackLogo} alt="" />
+            <div className="footer__bottom__content">
+              <p className=" uppercase font-semibold">Why Slack?</p>
+              <ul>
+                <li>
+                  <a href="#" className="hover:text-blue-700">
+                    Slack vs email
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="hover:text-blue-700 hover:transition-colors"
+                  >
+                    Channels
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="hover:text-blue-700 hover:transition-colors"
+                  >
+                    Engagement
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="hover:text-blue-700 hover:transition-colors"
+                  >
+                    Scale
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="hover:text-blue-700 hover:transition-colors"
+                  >
+                    Watch the demo
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div className="footer__bottom__content">
+              <p className=" uppercase font-semibold">Product</p>
+              <ul>
+                <li>
+                  <a href="#" className="hover:text-blue-700">
+                    Features
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="hover:text-blue-700 hover:transition-colors"
+                  >
+                    Integrations
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="hover:text-blue-700 hover:transition-colors"
+                  >
+                    Enterprise
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="hover:text-blue-700 hover:transition-colors"
+                  >
+                    Solutions
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div className="footer__bottom__content">
+              <p className=" uppercase font-semibold">Pricing</p>
+              <ul>
+                <li>
+                  <a href="#" className="hover:text-blue-700">
+                    Subscriptions
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="hover:text-blue-700 hover:transition-colors"
+                  >
+                    Paid vs free
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div className="footer__bottom__content">
+              <p className=" uppercase font-semibold">Resources</p>
+              <ul>
+                <li>
+                  <a href="#" className="hover:text-blue-700">
+                    Partners
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="hover:text-blue-700 hover:transition-colors"
+                  >
+                    Developers
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="hover:text-blue-700 hover:transition-colors"
+                  >
+                    Community
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="hover:text-blue-700 hover:transition-colors"
+                  >
+                    Apps
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="hover:text-blue-700 hover:transition-colors"
+                  >
+                    Blog
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="hover:text-blue-700 hover:transition-colors"
+                  >
+                    Help Centre
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div className="footer__bottom__content">
+              <p className=" uppercase font-semibold">Company</p>
+              <ul>
+                <li>
+                  <a href="#" className="hover:text-blue-700">
+                    About us
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="hover:text-blue-700 hover:transition-colors"
+                  >
+                    Leadership
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="hover:text-blue-700 hover:transition-colors"
+                  >
+                    News
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="hover:text-blue-700 hover:transition-colors"
+                  >
+                    Media kit
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="hover:text-blue-700 hover:transition-colors"
+                  >
+                    Careers
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="hover:text-blue-700 hover:transition-colors"
+                  >
+                    Slack Shop
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </footer>
       </div>

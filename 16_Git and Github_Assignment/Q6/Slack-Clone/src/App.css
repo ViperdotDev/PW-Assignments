@@ -15,5 +15,15 @@ body {
   border-bottom-right-radius: 1100px 100px;
   border-bottom-left-radius: 1100px 100px;
   margin-bottom: 200px;
-  
+}
+
+.footer__bottom__content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer__bottom__content ul {
+  display: flex;
+  flex-direction: column;
+  gap:10px;
 }
