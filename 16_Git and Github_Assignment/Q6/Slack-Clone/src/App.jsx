@@ -1,4 +1,5 @@
 import "./App.css";
+import main from "./assets/videos/main.mp4";
 import third from "./assets/videos/third.webm";
 import second from "./assets/videos/second.webm";
 import first from "./assets/videos/first-left.webm";
@@ -192,8 +193,8 @@ function App() {
             </div>
           </div>
         </section>
-        <section className="companies">
-          <div className="first">
+        <section className="companies mb-24">
+          <div className="first pb-20">
             <div className="first__top flex flex-col justify-center items-center pt-24 pb-20 gap-7">
               <p className="text-5xl font-semibold">
                 Teams large and small rely on Slack
@@ -219,20 +220,59 @@ function App() {
                 </p>
               </div>
               <div>
-                <p className="text-6xl  text-purple-900 font-bold">85%</p>
+                <p className="text-6xl  text-purple-900 font-bold">86%</p>
                 <p className="w-40 text-xs font-semibold tracking-wide">
-                  of users say that Slack has improved communication*
+                  feel that their ability to work remotely has improved*
                 </p>
               </div>
               <div>
-                <p className="text-6xl  text-purple-900 font-bold">85%</p>
+                <p className="text-6xl  text-purple-900 font-bold">88%</p>
                 <p className="w-40 text-xs font-semibold tracking-wide">
-                  of users say that Slack has improved communication*
+                  feel more connected to their teams*
                 </p>
               </div>
             </div>
           </div>
+          <div className="second w-full h-full flex items-center justify-between">
+            <div className="left bg-red-700 w-1/2 rounded-r-full overflow-hidden">
+              <video muted loop autoPlay src={main}></video>
+            </div>
+            <div className="right w-1/2 p-10 flex flex-col gap-3">
+              <p className="text-3xl font-light italic w-full">
+                ‘Many technology employees were gravitating naturally to Slack.
+                So we followed our users to what has become one of our most
+                important tools.’
+              </p>
+              <div>
+                <p className="font-semibold tracking-wider">Matt Beal </p>
+                <p className="font-medium">
+                  Director of Technology Strategy and Architecture, Vodafone
+                </p>
+              </div>
+              <p className="tracking-wider text-base text-blue-700">
+                See more customer stories
+              </p>
+            </div>
+          </div>
         </section>
+        <footer className="w-full h-fit overflow-hidden">
+          <div className="footer__top h-80 w-full bg-[#4a154b] text-white flex flex-col justify-center items-center gap-8">
+            <p className="text-5xl font-semibold">
+              See all that you can accomplish with Slack
+            </p>
+            <div className="footer__btns flex gap-3">
+              <button className="uppercase inline-block border border-white bg-white text-[#541554] p-3 rounded-sm tracking-wider">
+                try for free
+              </button>
+              <button className="uppercase inline border border-white bg-transparent p-3 rounded-sm tracking-wider">
+                Talk to sales
+              </button>
+            </div>
+          </div>
+          <div className="footer__bottom">
+            <img width={60} height={60} src={slackLogo} alt="" />
+          </div>
+        </footer>
       </div>
     </>
   );
