@@ -1,3 +1,4 @@
+import final from "./assets/final.webp";
 import last from "./assets/last.webp";
 import featuresFirst from "./assets/features-first.webp";
 import getMore from "./assets/get-more.webp";
@@ -8,7 +9,7 @@ import "./App.css";
 function App() {
   return (
     <div className="wrapper scroll-smooth ">
-      <nav className="flex top-1 sticky bg-white  w-full justify-between items-center px-16 py-1 shadow-md">
+      <nav className="flex top-1 sticky bg-transparent text-white backdrop-blur-lg   w-full justify-between items-center px-16 py-1 shadow-md">
         <div className="logo flex items-center gap-2">
           <img className="w-8 h-8" src={gmailLogo} alt="gmailLogo" />
           <p className="text-2xl text-gray-600 ">Gmail</p>
@@ -200,16 +201,24 @@ function App() {
           </div>
         </div>
       </section>
-      <section className="final">
-        <div className="final__first">
-          <img src={gmailLogo} alt="" />
-          <h1>Show the world how it’s done. </h1>
-          <p>Get started with a more powerful Gmail. </p>
-          <button>Create an account</button>
-          <button>For work</button>
+      <section className="final mb-4">
+        <div className="final__first flex flex-col justify-center items-center gap-5">
+          <img className="w-10 h-10" src={gmailLogo} alt="" />
+          <h1 className="text-5xl text-center  font-medium w-96">
+            Show the world how it’s done.{" "}
+          </h1>
+          <p className="text-3xl text-gray-500">
+            Get started with a more powerful Gmail.{" "}
+          </p>
+          <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-md transition-colors duration-500 linear">
+            Create an account
+          </button>
+          <button className="hover:bg-blue-50 px-5 py-2 rounded-md transition-colors duration-500 linear">
+            For work
+          </button>
         </div>
         <div className="final__second">
-<img src={final} alt="" />
+          <img src={final} alt="" />
         </div>
       </section>
     </div>
