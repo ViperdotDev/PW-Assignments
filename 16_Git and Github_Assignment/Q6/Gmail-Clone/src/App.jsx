@@ -1,3 +1,4 @@
+import last from "./assets/last.webp";
 import featuresFirst from "./assets/features-first.webp";
 import getMore from "./assets/get-more.webp";
 import heroImg from "./assets/hero-img.png";
@@ -148,7 +149,69 @@ function App() {
           </div>
         </div>
       </section>
-      <section></section>
+      <section className="gmail__better">
+        <div className="first hero flex pt-8 w-full justify-between items-center">
+          <div className="first__left ml-40 w-1/2 flex flex-col gap-10">
+            <h1 className="text-5xl leading-tight font-medium text-slate-900 w-[600px]">
+              Gmail is better on the app
+            </h1>
+            <div className="content flex flex-col gap-10 ">
+              <div className=" pl-10 border-l-4 border-l-gray-300 hover:border-l-blue-500 transition-colors duration-500 ease-linear">
+                <h2 className="hover:text-blue-500 transition-all duration-500 ease-linear  text-xl text-gray-600 font-medium w-[500px] mb-2">
+                  Express yourself with emoji
+                </h2>
+                <button className="text-green-800 bg-green-200 text-sm rounded-full px-3 tracking-wider mb-2">
+                  New
+                </button>
+                <p className="w-[450px] text-gray-500 hover:text-emerald-500 transition-all duration-500 ease-linear mb-3">
+                  Emoji reactions are a fast and fun way to reply to emails,
+                  only available with the Gmail app.
+                </p>
+                <p className="text-xs text-gray-500 hover:text-pink-500 transition-all duration-500 ease-linear">
+                  This feature will begin to roll out in October 2023.
+                </p>
+              </div>
+              <div className=" pl-10 border-l-4 border-l-gray-300 hover:border-l-blue-500 transition-colors duration-500 ease-linear">
+                <h2 className="hover:text-blue-500 transition-colors duration-500 ease-linear  text-xl font-semibold text-gray-600 w-[500px] mb-2">
+                  Find your emails faster
+                </h2>
+                <p className="w-[450px] text-gray-500 hover:text-emerald-500 transition-all duration-500 ease-linear">
+                  A simplified phone IJI displays an email welcoming Helen to
+                  the team, and an enlarged emoji bar indicates simplicity in
+                  replying with an emoji.
+                </p>
+              </div>
+              <div className=" pl-10 border-l-4 border-l-gray-300 hover:border-l-blue-500 transition-colors duration-500 ease-linear">
+                <h2 className="hover:text-blue-500 transition-all font-semibold duration-500 ease-linear  text-xl text-gray-600 w-[500px] mb-2">
+                  Switch between accounts
+                </h2>
+                <p className="w-[500px] text-gray-500 hover:text-emerald-500 transition-all duration-500 ease-linear">
+                  All your emails from different providers in one app.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="first__right  w-1/2">
+            <img
+              className="w-[860px] h-[650px] object-cover object-left-top"
+              src={last}
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+      <section className="final">
+        <div className="final__first">
+          <img src={gmailLogo} alt="" />
+          <h1>Show the world how it’s done. </h1>
+          <p>Get started with a more powerful Gmail. </p>
+          <button>Create an account</button>
+          <button>For work</button>
+        </div>
+        <div className="final__second">
+<img src={final} alt="" />
+        </div>
+      </section>
     </div>
   );
 }
