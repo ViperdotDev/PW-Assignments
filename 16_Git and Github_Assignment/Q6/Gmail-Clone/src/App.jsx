@@ -1,3 +1,5 @@
+import featuresFirst from "./assets/features-first.webp";
+
 import heroImg from "./assets/hero-img.png";
 import gmailLogo from "./assets/logo-gmail.png";
 import "./App.css";
@@ -22,7 +24,7 @@ function App() {
           </button>
         </div>
       </nav>
-      <div className="hero flex pt-8 w-full justify-between items-center">
+      <div className="hero flex pt-8 w-full justify-between items-center mb-20">
         <div className="hero-left ml-40 w-[450px] flex flex-col gap-8">
           <h1 className="text-6xl leading-tight font-medium text-slate-900">
             Secure, smart, and easy to use email
@@ -43,6 +45,64 @@ function App() {
         <div className="hero-right w-1/2">
           <img className=" h-full w-auto" src={heroImg} alt="" />
         </div>
+      </div>
+      <div className="features">
+        <div className="features__first hero flex pt-8 w-full justify-between ">
+          <div className="features__first__left ml-40 w-1/2 flex flex-col gap-10">
+            <h1 className="text-5xl leading-tight font-medium text-slate-900 w-[600px]">
+              Email that&apos;s secure, private, and puts you in control.
+            </h1>
+            <div className="content pl-10 flex flex-col gap-10 border-l-4 border-l-gray-300 hover:border-l-blue-500 transition-colors duration-500 ease-linear">
+              <div>
+                <h2 className="hover:text-blue-500 transition-colors duration-500 ease-linear  text-2xl text-gray-600 w-[500px] mb-2">
+                  We never use your Gmail content for any ads purposes
+                </h2>
+                <p className="w-[500px] text-gray-500">
+                  Gmail uses industry-leading encryption for all messages you
+                  receive and send. We never use your Gmail content to
+                  personalize ads.
+                </p>
+              </div>
+              <div>
+                <h2 className="hover:text-blue-500 transition-colors duration-500 ease-linear  text-2xl text-gray-600 w-[500px] mb-2">
+                  Gmail keeps over a billion people safe every day
+                </h2>
+                <p className="w-[500px] text-gray-500">
+                  Gmail blocks 99.9% of spam, malware, and dangerous links from
+                  ever reaching your inbox.
+                </p>
+              </div>
+              <div>
+                <h2 className="hover:text-blue-500 transition-colors duration-500 ease-linear  text-2xl text-gray-600 w-[500px] mb-2">
+                  The most advanced phishing protections available
+                </h2>
+                <p className="w-[500px] text-gray-500">
+                  When a suspicious email arrives that could be legitimate,
+                  Gmail lets you know, keeping you in control.
+                </p>
+              </div>
+              <div>
+                <h2 className="hover:text-blue-500 transition-colors duration-500 ease-linear  text-2xl text-gray-600 w-[500px] mb-2">
+                  Best-in-class controls over emails you send
+                </h2>
+                <p className="w-[500px] text-gray-500">
+                  Confidential Mode lets you set expirations and require
+                  recipients to verify by text. You can also remove options to
+                  forward, copy, download, and print.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="features__first__right  w-1/2">
+            <img
+              className="w-[860px] h-[650px] object-cover object-left-top"
+              src={featuresFirst}
+              alt=""
+            />
+          </div>
+        </div>
+        <div className="features__second"></div>
+        <div className="features__third"></div>
       </div>
     </div>
   );
