@@ -1,12 +1,12 @@
 import featuresFirst from "./assets/features-first.webp";
-
+import getMore from "./assets/get-more.webp";
 import heroImg from "./assets/hero-img.png";
 import gmailLogo from "./assets/logo-gmail.png";
 import "./App.css";
 
 function App() {
   return (
-    <div className="wrapper ">
+    <div className="wrapper scroll-smooth ">
       <nav className="flex top-1 sticky bg-white  w-full justify-between items-center px-16 py-1 shadow-md">
         <div className="logo flex items-center gap-2">
           <img className="w-8 h-8" src={gmailLogo} alt="gmailLogo" />
@@ -46,46 +46,46 @@ function App() {
           <img className=" h-full w-auto" src={heroImg} alt="" />
         </div>
       </div>
-      <div className="features">
+      <div className="features mb-44">
         <div className="features__first hero flex pt-8 w-full justify-between ">
           <div className="features__first__left ml-40 w-1/2 flex flex-col gap-10">
             <h1 className="text-5xl leading-tight font-medium text-slate-900 w-[600px]">
               Email that&apos;s secure, private, and puts you in control.
             </h1>
-            <div className="content pl-10 flex flex-col gap-10 border-l-4 border-l-gray-300 hover:border-l-blue-500 transition-colors duration-500 ease-linear">
-              <div>
-                <h2 className="hover:text-blue-500 transition-colors duration-500 ease-linear  text-2xl text-gray-600 w-[500px] mb-2">
+            <div className="content flex flex-col gap-10 ">
+              <div className=" pl-10 border-l-4 border-l-gray-300 hover:border-l-blue-500 transition-colors duration-500 ease-linear">
+                <h2 className="hover:text-blue-500 transition-all duration-500 ease-linear  text-2xl text-gray-600 w-[500px] mb-2">
                   We never use your Gmail content for any ads purposes
                 </h2>
-                <p className="w-[500px] text-gray-500">
+                <p className="w-[500px] text-gray-500 hover:text-emerald-500 transition-all duration-500 ease-linear">
                   Gmail uses industry-leading encryption for all messages you
                   receive and send. We never use your Gmail content to
                   personalize ads.
                 </p>
               </div>
-              <div>
+              <div className=" pl-10 border-l-4 border-l-gray-300 hover:border-l-blue-500 transition-colors duration-500 ease-linear">
                 <h2 className="hover:text-blue-500 transition-colors duration-500 ease-linear  text-2xl text-gray-600 w-[500px] mb-2">
                   Gmail keeps over a billion people safe every day
                 </h2>
-                <p className="w-[500px] text-gray-500">
+                <p className="w-[500px] text-gray-500 hover:text-emerald-500 transition-all duration-500 ease-linear">
                   Gmail blocks 99.9% of spam, malware, and dangerous links from
                   ever reaching your inbox.
                 </p>
               </div>
-              <div>
+              <div className=" pl-10 border-l-4 border-l-gray-300 hover:border-l-blue-500 transition-colors duration-500 ease-linear">
                 <h2 className="hover:text-blue-500 transition-colors duration-500 ease-linear  text-2xl text-gray-600 w-[500px] mb-2">
                   The most advanced phishing protections available
                 </h2>
-                <p className="w-[500px] text-gray-500">
+                <p className="w-[500px] text-gray-500 hover:text-emerald-500 transition-all duration-500 ease-linear">
                   When a suspicious email arrives that could be legitimate,
                   Gmail lets you know, keeping you in control.
                 </p>
               </div>
-              <div>
+              <div className=" pl-10 border-l-4 border-l-gray-300 hover:border-l-blue-500 transition-colors duration-500 ease-linear">
                 <h2 className="hover:text-blue-500 transition-colors duration-500 ease-linear  text-2xl text-gray-600 w-[500px] mb-2">
                   Best-in-class controls over emails you send
                 </h2>
-                <p className="w-[500px] text-gray-500">
+                <p className="w-[500px] text-gray-500 hover:text-emerald-500 transition-all duration-500 ease-linear">
                   Confidential Mode lets you set expirations and require
                   recipients to verify by text. You can also remove options to
                   forward, copy, download, and print.
@@ -104,6 +104,51 @@ function App() {
         <div className="features__second"></div>
         <div className="features__third"></div>
       </div>
+      <section className="get__more__done">
+        <div className="first hero flex pt-8 w-full justify-between items-center">
+          <div className="first__left  w-1/2">
+            <img
+              className="w-full h-full object-cover object-left-top"
+              src={getMore}
+              alt=""
+            />
+          </div>
+          <div className="first__right ml-40 w-1/2 flex flex-col gap-10">
+            <h1 className="text-5xl leading-tight font-medium text-slate-900 w-[600px]">
+              Get more done with Gmail
+            </h1>
+            <div className="content flex flex-col gap-10 ">
+              <div className=" pl-10 border-l-4 border-l-gray-300 hover:border-l-blue-500 transition-colors duration-500 ease-linear">
+                <h2 className="hover:text-blue-500 transition-all duration-500 ease-linear  text-2xl text-gray-600 w-[500px] mb-2">
+                  Stay connected and get organized
+                </h2>
+                <p className="w-[500px] text-gray-500 hover:text-emerald-500 transition-all duration-500 ease-linear">
+                  Start a Chat, jump into a video call with Meet, or collaborate
+                  in a Doc, all right from Gmail.
+                </p>
+              </div>
+              <div className=" pl-10 border-l-4 border-l-gray-300 hover:border-l-blue-500 transition-colors duration-500 ease-linear">
+                <h2 className="hover:text-blue-500 transition-colors duration-500 ease-linear  text-2xl text-gray-600 w-[500px] mb-2">
+                  Get more done faster
+                </h2>
+                <p className="w-[500px] text-gray-500 hover:text-emerald-500 transition-all duration-500 ease-linear">
+                  Write emails and messages faster with features like Smart
+                  Compose to spend more time doing what you love.
+                </p>
+              </div>
+              <div className=" pl-10 border-l-4 border-l-gray-300 hover:border-l-blue-500 transition-colors duration-500 ease-linear">
+                <h2 className="hover:text-blue-500 transition-colors duration-500 ease-linear  text-2xl text-gray-600 w-[500px] mb-2">
+                  Never forget to reply
+                </h2>
+                <p className="w-[500px] text-gray-500 hover:text-emerald-500 transition-all duration-500 ease-linear">
+                  Gentle nudges help you stay on top of everything.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section></section>
     </div>
   );
 }
