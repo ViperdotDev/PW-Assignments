@@ -22,23 +22,25 @@ function App() {
           </button>
         </div>
       </nav>
-      <div className="hero pt-20 flex  justify-around">
-        <div className="hero-left w-[450px]">
-          <h1 className="text-6xl font-medium text-slate-700">
+      <div className="hero flex pt-8 w-full justify-between items-center">
+        <div className="hero-left ml-40 w-[450px] flex flex-col gap-8">
+          <h1 className="text-6xl leading-tight font-medium text-slate-900">
             Secure, smart, and easy to use email
           </h1>
-          <p>
+          <p className="text-xl text-slate-500">
             Get more done with Gmail. Now integrated with Google Chat, Google
             Meet, and more, all in one place.
           </p>
-          <button className="text-white hover:bg-blue-700 bg-blue-600 px-6 text-lg tracking-wide py-3 rounded-sm transition-all duration-300 ease-linear ">
-            Create an account
-          </button>
-          <button className="text-blue-600 hover:bg-blue-50 px-4 py-3 rounded-sm transition-all duration-300 ease-linear font-medium">
-            For work
-          </button>
+          <div className="buttons__group flex gap-5">
+            <button className="text-white hover:bg-blue-700 bg-blue-600 px-4 text-lg tracking-wide py-3 rounded-sm transition-all duration-300 ease-linear ">
+              Create an account
+            </button>
+            <button className="text-blue-600 hover:bg-blue-50 px-4 py-3 rounded-sm transition-all duration-300 ease-linear font-medium">
+              For work
+            </button>
+          </div>
         </div>
-        <div className="hero-right">
+        <div className="hero-right w-1/2">
           <img className=" h-full w-auto" src={heroImg} alt="" />
         </div>
       </div>
