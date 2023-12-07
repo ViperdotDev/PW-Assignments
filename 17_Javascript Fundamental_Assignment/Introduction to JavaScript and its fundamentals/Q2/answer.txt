@@ -4,18 +4,19 @@ you would use each.
 JavaScript and HTML are both essential components of web development, but they serve distinct purposes and have fundamental differences.
 
 
-    HTML (HyperText Markup Language): HTML is a markup language that defines the structure and content of a web page. It consists of tags and attributes that instruct the browser on how to display the content.
-<!DOCTYPE html>
-<html>
-<head>
-<title>My Web Page</title>
-</head>
-<body>
-<h1>Welcome to My Web Page</h1>
-<p>This is a simple paragraph.</p>
-<img src="image.jpg" alt="Image description">
-</body>
-</html>
+HTML (HyperText Markup Language): HTML is a markup language that defines the structure and content of a web page. It consists of tags and attributes that instruct the browser on how to display the content.
+    
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <title>My Web Page</title>
+    </head>
+    <body>
+      <h1>Welcome to My Web Page</h1>
+      <p>This is a simple paragraph.</p>
+      <img src="image.jpg" alt="Image description">
+    </body>
+    </html>
 
 
     JavaScript: JavaScript is a scripting language that adds interactivity and dynamic behavior to web pages. It allows for manipulating the content of the page, responding to user actions, and creating animations.

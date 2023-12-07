@@ -1,0 +1,64 @@
+Q3. Differentiate between unary, binary, and ternary operators in JavaScript. Give examples of each.
+
+In JavaScript, operators can be categorized based on the number of operands they operate on. Here's the differentiation between unary, binary, and ternary operators, along with examples for each:
+
+    Unary Operators:
+        Definition: Unary operators are operators that work with only one operand.
+        Example:
+
+        javascript
+
+    // Unary Plus (+)
+    let num = 5;
+    let result = +num; // Unary plus converts its operand to a number
+    console.log(result); // Output: 5
+
+    // Unary Negation (-)
+    let negResult = -num; // Unary negation negates its operand
+    console.log(negResult); // Output: -5
+
+    // Increment (++)
+    let x = 10;
+    x++; // Increment operator increases the value by 1
+    console.log(x); // Output: 11
+
+    // Decrement (--)
+    let y = 8;
+    y--; // Decrement operator decreases the value by 1
+    console.log(y); // Output: 7
+
+Binary Operators:
+
+    Definition: Binary operators are operators that work with two operands.
+    Example:
+
+    javascript
+
+    // Addition (+)
+    let sum = 5 + 3; // Adds two operands
+    console.log(sum); // Output: 8
+
+    // Subtraction (-)
+    let difference = 8 - 3; // Subtracts the right operand from the left operand
+    console.log(difference); // Output: 5
+
+    // Multiplication (*)
+    let product = 4 * 3; // Multiplies two operands
+    console.log(product); // Output: 12
+
+    // Division (/)
+    let quotient = 16 / 4; // Divides the left operand by the right operand
+    console.log(quotient); // Output: 4
+
+Ternary Operator:
+
+    Definition: The ternary operator is a conditional operator that takes three operands.
+    Syntax: condition ? expr1 : expr2
+    Example:
+
+    javascript
+
+// Ternary Operator (conditional operator)
+let age = 20;
+let status = (age >= 18) ? 'Adult' : 'Minor';
+console.log(status); // Output: 'Adult'

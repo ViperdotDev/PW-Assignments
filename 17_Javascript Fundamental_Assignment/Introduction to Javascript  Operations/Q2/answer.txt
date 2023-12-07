@@ -1,0 +1,60 @@
+Q2. Describe the categorization of operators in JavaScript based on their functionality. Provide examples for each category.
+
+Operators in JavaScript can be categorized based on their functionality into several groups. Here's a breakdown of these categories with examples:
+
+1.Arithmetic Operators:
+    i)addition:-
+        let sum = 10 + 2;//Result:12
+    ii)subtraction:-
+        let difference = 10 - 2;//Result:8
+    iii)multiplication:-
+        let product = 10 * 2;//Result:20
+    iv)division:-
+        let quotient = 10 / 2;//Result:5
+    v)remainder:-
+        let remainder = 10 % 2;//Result:0
+
+2.Comparison Operators:
+    i)Equal(==):-
+        let isEqual = 10 == '10';//Result:True
+    ii)Not Equal(!=):-
+        let isNotEqual = 10 != '10';//Result:False
+    iii)Strict Equal(===):-
+        let isStrictEqual = 10 === '10';//Result:False
+    iv)Strict Not Equal(!==):-
+        let isStrictNotEqual = 10 !== '10';//Result:True
+    v)Greater Than(>):-
+        let isGreaterThan = 10 > 2;//Result:True
+    vi)Greater Than or Equal(>=):-
+        let isGreaterThanOrEqual = 10 >= 2;//Result:True
+    vii)Less Than(<):-
+        let isLessThan = 10 < 2;//Result:False
+    viii)Less Than or Equal(<=):-
+        let isLessThanOrEqual = 10 <= 2;//Result:False
+
+3.Logical Operators:
+    i)Logical AND(&&):-
+        let isLogicalAnd = true && false;//Result:False
+    ii)Logical OR(||):-
+        let isLogicalOr = true || false;//Result:True
+    iii)Logical NOT(!):-
+        let isLogicalNot = !true;//Result:False
+
+4.Assignment Operators:
+    i)Assignment(=):-
+        let x = 10;//Result:10
+    ii)Addition Assignment(+=):-
+        let x = 10;
+        x += 2;//Result:12
+    iii)Subtraction Assignment(-=):-
+        let x = 10;
+        x -= 2;//Result:8
+    iv)Multiplication Assignment(*=):-
+        let x = 10;
+        x *= 2;//Result:20
+    v)Division Assignment(/=):-
+        let x = 10;
+        x /= 2;//Result:5
+    vi)Remainder Assignment(%=):-
+        let x = 10;
+        x %= 2;//Result:0

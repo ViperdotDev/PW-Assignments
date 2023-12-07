@@ -1,0 +1,48 @@
+Q.Explain the role of operators in JavaScript. Why are they essential in programming?
+
+Operators in JavaScript are symbols or keywords that perform operations on one or more operands. These operations can include arithmetic computations, comparisons, logical operations, and more. Operators are essential in programming for several reasons:
+
+    Arithmetic Operations:
+        Addition (+): Adds two operands.
+        Subtraction (-): Subtracts the right operand from the left operand.
+        Multiplication (*): Multiplies two operands.
+        Division (/): Divides the left operand by the right operand.
+        Modulus (%): Returns the remainder of the division of the left operand by the right operand.
+
+    These operators are fundamental for performing basic mathematical calculations in a programming language.
+
+    Comparison Operations:
+        Equal (==): Checks if two values are equal.
+        Not Equal (!=): Checks if two values are not equal.
+        Strict Equal (===): Checks if two values are equal without type conversion.
+        Strict Not Equal (!==): Checks if two values are not equal without type conversion.
+        Greater Than (>): Checks if the left operand is greater than the right operand.
+        Less Than (<): Checks if the left operand is less than the right operand.
+        Greater Than or Equal (>=): Checks if the left operand is greater than or equal to the right operand.
+        Less Than or Equal (<=): Checks if the left operand is less than or equal to the right operand.
+
+    Comparison operators are crucial for making decisions in conditional statements.
+
+    Logical Operations:
+        Logical AND (&&): Returns true if both operands are true.
+        Logical OR (||): Returns true if at least one of the operands is true.
+        Logical NOT (!): Returns the opposite of the operand's logical value.
+
+    Logical operators are essential for combining and manipulating Boolean values.
+
+    Assignment Operations:
+        Assignment (=): Assigns a value to a variable.
+        Addition Assignment (+=): Adds the right operand to the left operand and assigns the result to the left operand.
+        Subtraction Assignment (-=): Subtracts the right operand from the left operand and assigns the result to the left operand.
+        Multiplication Assignment (*=): Multiplies the left operand by the right operand and assigns the result to the left operand.
+        Division Assignment (/=): Divides the left operand by the right operand and assigns the result to the left operand.
+
+    Assignment operators are used to assign values to variables and update their values.
+
+    Unary Operators:
+        Unary Plus (+): Converts its operand to a number.
+        Unary Negation (-): Negates its operand.
+        Increment (++): Increases the value of its operand by 1.
+        Decrement (--): Decreases the value of its operand by 1.
+
+    Unary operators perform operations on a single operand.
